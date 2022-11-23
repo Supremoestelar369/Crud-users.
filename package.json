@@ -1,0 +1,25 @@
+{
+  "name": "crud_users",
+  "version": "1.0.0",
+  "description": "This is a project of a user crud made in express and node.js",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ./src/app.js",
+    "dev": "nodemon ./src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node.js",
+    "express",
+    "backend"
+  ],
+  "author": "Omar Soto",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
