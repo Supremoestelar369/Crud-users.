@@ -1,17 +1,23 @@
-const express = require("express");
-const Router = require("./crud/crud.router");
-const PORT = 9000;
+// 1-dependencie
+const express= require('express')
 
-const app = express();
+//Router
+const Router = require('./users/users.routes')
 
-app.use(express.json());
+// 2.-initial config
+const port =9000;
+const app =express()
+// 3.-json request config
+app.use(express.json())
 
-app.use("/", Router);
+app.get('/', (req, res) => {
+    res.status(200).json({mesage:'ok'})
+} )
 
-app.get("/", (req, res) => {
-  res.status(200).json({ message: "Server OK!" });
-});
+//API V1 ROUTER
+app.use('/users/v1', Router)
 
-app.listen(PORT, () => {
-  console.log(`Server online on port ${PORT}!`);
-});
+// 4.-start server
+app.listen(port, () =>{
+    console.log(`Server started at port ${port}`);
+})
