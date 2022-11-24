@@ -1,13 +1,8 @@
-# Crud-users.
-1. Crea y despliega tu servidor, utiliza las librerias de express y nodemon.
-2. En base al modelo MVC, deberas crear los siguientes 3 archivos
-    1. users.controllers.js
-    2. users.services.js
-    3. users.router.js
-3. Deberas recibir los siguientes verbos a las siguientes rutas
-    1. /users 
-        1. GET → Al hacer esta peticion deberas de retornar todos los usuarios
-        2. POST → Al hacer esta peticion, manejaras el req del cliente y crearas un nuevo usuario
-    2. /users/:id
-        1. GET → Al hacer esta petición deberas retornar el usuario con el ID en especifico que recibes desde parametros
-4. En tu base de datos ficticia, deberas almacenar un arreglo de objetos, los objetos de los usuarios deberan tener lo siguiente:
+# Academlo Quotes API
+en este proyecto vamos a manejas las difer3entea fraces celebres de los presonajes iconos de academlo dentro de este proyecto vamos a poder crear y gestionar las diferentas fraces
+
+/quotes /quotes/:id /quotes/random
+
+obtengas todas las 'citas' obtener una cita dependiendo el id crear una cita nueva obtener una cita de manera aleatroia
+
+1.- crear la caropeta de la entidad Quotes 2.- crear los 3 archivos(controlres, services, router) 3.- empezar a desarrolar los controladores 4.- crear los servicios mandando llamar los controladoes 5.- agregar cada servicio a su ruta respectica 6.- agregar el router a app.js
