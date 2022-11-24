@@ -1,4 +1,4 @@
- Academlo Quotes API
+Academlo Quotes API
 
 In this project we will handle the different Famous fraces of the presonages icons of academlo within this project we will be able to create and manage the different fraces
 
