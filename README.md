@@ -1,8 +1,10 @@
-# Academlo Quotes API
-en este proyecto vamos a manejas las difer3entea fraces celebres de los presonajes iconos de academlo dentro de este proyecto vamos a poder crear y gestionar las diferentas fraces
+ Academlo Quotes API
+
+In this project we will handle the different Famous fraces of the presonages icons of academlo within this project we will be able to create and manage the different fraces
 
 /quotes /quotes/:id /quotes/random
 
-obtengas todas las 'citas' obtener una cita dependiendo el id crear una cita nueva obtener una cita de manera aleatroia
+Get all the 'appointments' Get an appointment depending on the ID Create a new appointment Get an appointment randomly
 
-1.- crear la caropeta de la entidad Quotes 2.- crear los 3 archivos(controlres, services, router) 3.- empezar a desarrolar los controladores 4.- crear los servicios mandando llamar los controladoes 5.- agregar cada servicio a su ruta respectica 6.- agregar el router a app.js
+
+1.- Create the caropeta of the entity Quotes 2.- Create the 3 files (controlres, services, router) 3.- Start developing the controllers 4.- Create the services by sending the controlled ones to call 5.- Add each service to its respective route 6.- Add the router to app.js
